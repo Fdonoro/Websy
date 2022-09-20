@@ -1,0 +1,19 @@
+.alinearCentro {
+    text-align: center;
+}
+
+.alinearIzquierda {
+    text-align: left;
+}
+
+.alinearDerecha {
+    text-align: right;
+}
+
+.marginTop40 {
+    margin-top: 40px;
+}
+
+.enNegrita {
+    font-weight: bold;
+}

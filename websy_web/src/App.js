@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import TextoBasico from './Templates/TextoBasico';
+import TextoIzquierda from './Templates/TextoIzquierda';
+import TituloTexto from './Templates/TituloTexto';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p> 
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+       
       </header>
+      <TextoBasico esColorida>Este es un template con un elemento basicop ara que veas que funciona rgeihg ghighrioht  hohiriho ioh oisrht r</TextoBasico>
+      <TextoBasico>Este es otro elemento basico</TextoBasico>
+      <TextoIzquierda >Este es otro elemento basico</TextoIzquierda>
+      <TextoIzquierda esColorida>Este es otro elemento basico</TextoIzquierda>
+      <TituloTexto titulo="Esto es el titulo" contenido="Y esto, el contenido"/>
+      <TituloTexto esColorida titulo="Esto es el titulo" contenido="Y esto, el contenido"/>
     </div>
   );
 }

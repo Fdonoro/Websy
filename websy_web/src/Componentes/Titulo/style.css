@@ -1,0 +1,14 @@
+h1 {
+    font-weight: bold;
+    position: relative;
+}
+
+h1:after {
+    position: absolute;
+    content: '';
+    left: -5px;
+    right: 5px;
+    height: 4px;
+    background: #005691;
+    bottom: -16px;
+}
