@@ -12,5 +12,4 @@ public class WebsyApiApplication {
 		SpringApplication.run(WebsyApiApplication.class, args);
 	}
 
-
 }

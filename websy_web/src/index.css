@@ -6,4 +6,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  position: relative;
+  margin-top: 80px;
 }

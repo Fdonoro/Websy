@@ -8,8 +8,8 @@ const TituloTexto = (props) => {
   return (
     <Seccion esColorida={props.esColorida}>
         <Contenedor> 
-            <Titulo>{props.titulo}</Titulo>
-            <Parrafo classes={["marginTop40"]}>{props.contenido}</Parrafo>
+            <Titulo classes={["alinearCentro"]}>{props.titulo}</Titulo>
+            <Parrafo classes={["alinearCentro","marginTop40"]}>{props.contenido}</Parrafo>
         </Contenedor>
     </Seccion>
   )

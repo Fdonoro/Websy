@@ -12,3 +12,15 @@ h1:after {
     background: #005691;
     bottom: -16px;
 }
+
+.alinearCentro {
+    text-align: center;
+}
+
+.alinearIzquierda {
+    text-align: left;
+}
+
+.alinearDerecha {
+    text-align: right;
+}
