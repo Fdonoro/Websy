@@ -11,7 +11,6 @@ public class PersonaModelo {
 	private String nombre;
 	private String apellido;
 	
-	
 	public String getId() {
 		return id;
 	}
